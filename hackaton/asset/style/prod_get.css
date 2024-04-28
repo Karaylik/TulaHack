@@ -1,0 +1,100 @@
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 calc(100% / 3); /* каждый слайд занимает 33.333333% от ширины контейнера */
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.slide_img {
+    width: 100%;
+    height: auto;
+}
+.controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+.control-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+#Bottom_content_text{
+    display: flex;
+    width: 80%;
+}
+.Prod_fix{
+    align-items: center;
+    padding-bottom: 40px;
+}
+#Bottom_content_text{
+    display: flex;
+    flex-direction: column;
+}
+#first_txt h1{
+color: white;
+}
+#second_txt{
+    display: flex;
+}
+#right_second_txt, #left_second_txt{
+    width: 50%;
+}
+#right_second_txt{
+    color: white;
+    font-size: x-large;
+}
+#in_left_side{
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book_span{
+    font-weight: 700;
+}
+#date, #time, #person{
+    display: flex;
+}
+.book_input{
+    width: 50%;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+td {
+    padding: 15px 0; /* Задаем отступы по вертикали */
+    width: 50%;
+ 
+}
+.td_input{
+    text-align: center;
+}
+.btn_book{
+width: 60%;
+}
