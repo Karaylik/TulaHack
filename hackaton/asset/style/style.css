@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+}
+#left_header, #center_header,#right_header{
+    width: 33%;
+}
+#left_header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#center_header{
+    display: flex;
+    justify-content: center;
+}
+#right_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo_img{
+    width: auto;
+    height: auto;
+    max-width: 12%;
+}
+#content{
+    display: flex;
+    justify-content: space-evenly;
+}
+#left_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#right_content{
+    display: flex;
+    flex-direction: column;
+}
+#login_reg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#slide{
+    display: flex;
+    justify-content: center;
+}
+#slide h1{
+    margin: 10px;
+}
+
+#all_content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    background-color: #222222;
+}
+
+
+
+#footer{
+    display: flex;
+
+    justify-content: center;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.text-field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+
+.btn-new {
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-color: #00000000;
+}
+
+.btn-new:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #081120;
+}
+.MainMenu{
+	height: 50vh;
+	background-image: url(main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	opacity: 85%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#href_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.MainBlockDiv{
+    background-color: #000000;
+margin-top: 23px;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5%;
+transition: transform 0.3s ease;
+
+}
+
+.MainBlockDiv p{
+color: white;
+}
+
+.MainBlockDiv img{
+padding-top: 5vh;
+width: 70%;
+height: 70%;
+}
+
+.MainBlockDiv:hover {
+transform: scale(1.05); 
+transition: all 0.5s ease-in-out;
+box-shadow: 0 0 17px rgb(255, 255, 255);
+}
+
+
+
+.block{
+
+margin: 0;
+height: auto;
+width: 70vw;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-around;
+
+}
+#right_block{
+    display: flex;
+    flex-direction: column;
+}
+#txt_block{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#left_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left_block span {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#right_block span{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 150px;
+    justify-content: space-between;
+}
+.form_list{
+    display: flex;
+    margin: 25px;
+}
+.back_kartochki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#in_index_content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#text_in{
+    color: white;
+    font-size: 72px;
+}
+#first{
+ display: flex;
+ justify-content: flex-end;
+ position: relative;
+ bottom: 70px;
+}
+#second{
+    display: flex;
+}
+#login_reg span{
+    color: white;
+}
+#slide h1{
+    color: white;
+}
+.fix{
+    color: white;
+}
